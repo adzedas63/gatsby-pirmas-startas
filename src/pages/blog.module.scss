@@ -1,0 +1,24 @@
+.posts {
+    list-style-type: none;
+    margin: 0;
+}
+
+.post {
+    a {
+        color: rgb(177, 19, 19);
+        display: block;
+        padding: 1rem;
+        text-decoration: none;
+    }
+    a:hover {
+        background: rgb(160, 116, 35);
+    }
+    h2 {
+        margin-bottom: 0;
+    }
+    p {
+        color: rgb(25, 90, 25);
+        font-size: .8rem;
+        font-style: italic;
+    }
+}

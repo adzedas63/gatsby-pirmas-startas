@@ -1,0 +1,19 @@
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-item {
+    color: crimson;
+    font-size: .9rem;
+    margin-right: 1.3rem;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: darkgreen;
+}
+
+.active-nav-item {
+    color: rgb(13, 86, 134);
+}

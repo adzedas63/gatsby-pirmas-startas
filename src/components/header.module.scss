@@ -1,0 +1,41 @@
+* {
+    background-color: burlywood;
+}
+
+.header {
+    padding: 1rem 0 3rem;
+}
+
+.title {
+    color: crimson;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.description {
+    color: mediumvioletred;
+    font-size: 1.6rem;
+    font-style: italic;
+}
+
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-item {
+    color: crimson;
+    font-size: .9rem;
+    margin-right: 1.3rem;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: darkgreen;
+}
+
+.active-nav-item {
+    color: rgb(13, 86, 134);
+}
